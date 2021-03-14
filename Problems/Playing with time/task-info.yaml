@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.kt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/6781#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:11:19: error: type mismatch: inferred type is Int but Long was expected
+        val l: Long = n0 + 4            //4
+                      ^
+    main.kt:13:21: error: type mismatch: inferred type is Float but Double was expected
+        val d: Double = f0 / 1          //6
+                        ^
+  time: Sat, 13 Mar 2021 09:21:43 UTC
+record: -1
